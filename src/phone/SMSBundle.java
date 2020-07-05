@@ -8,9 +8,11 @@ public class SMSBundle implements BillAction {
       this.quantity = qty;
       this.smsPrice = sms;
 
+
   }
 
     public double totalCost() {
+        smsPrice = 0;
         return smsPrice;
     }
 }

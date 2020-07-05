@@ -12,15 +12,15 @@ public class JvmMain {
 
         /*creating a ref.variable that is a BillAction type that holds a Phone call
              ,Sms bundle and data bundle instance*/
-        BillAction call = new PhoneCall(00.00);
+        BillAction call = new PhoneCall(10.50);
         bill.accept(call);
 
 
-        BillAction sms = new SMSBundle(0,00.00);
+        BillAction sms = new SMSBundle(12,6.00);
         bill.accept(sms);
 
 
-        BillAction data = new DataBundles(00.00);
+        BillAction data = new DataBundles(15.00);
         bill.accept(data);
     }
 

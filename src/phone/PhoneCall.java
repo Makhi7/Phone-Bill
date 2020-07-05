@@ -12,4 +12,14 @@ public class PhoneCall implements BillAction {
     public double totalCost() {
         return callPrice;
     }
+
+
+    public static void main(String [] args){
+        BillAction obj = new PhoneCall(0.05);
+        System.out.println(obj.totalCost());
+
+    }
+
+
+
 }
