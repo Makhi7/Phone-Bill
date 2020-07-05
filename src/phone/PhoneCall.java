@@ -5,9 +5,10 @@ public class PhoneCall implements BillAction {
 
     PhoneCall(double price){
         this.callPrice = price;
+
     }
 
-    @Override
+
     public double totalCost() {
         return callPrice;
     }
