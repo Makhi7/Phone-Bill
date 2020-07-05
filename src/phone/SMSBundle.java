@@ -12,7 +12,6 @@ public class SMSBundle implements BillAction {
   }
 
     public double totalCost() {
-        smsPrice = 0;
-        return smsPrice;
+      return smsPrice;
     }
 }
